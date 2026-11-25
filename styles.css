@@ -79,9 +79,17 @@ a:focus-visible {
 }
 
 .wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: .65rem;
   font: 760 1.35rem / 1.1 var(--display);
   letter-spacing: -.035em;
   text-decoration: none;
+}
+
+.header-logo {
+  width: 2.75rem;
+  height: auto;
 }
 
 nav {
@@ -185,9 +193,9 @@ h1 span {
   background: var(--cream);
 }
 
-.hero-lettering {
-  font: 800 clamp(8rem, 16vw, 14rem) / .9 var(--display);
-  letter-spacing: -.09em;
+.hero-logo {
+  width: min(78%, 23rem);
+  height: auto;
 }
 
 section[id] {
@@ -320,8 +328,8 @@ section[id] {
     gap: .5rem;
   }
 
-  .hero-lettering {
-    font-size: 9rem;
+  .hero-logo {
+    width: min(76%, 14rem);
   }
 }
 
