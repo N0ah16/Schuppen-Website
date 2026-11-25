@@ -3,22 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Die Vereinsseite des Amitié Clubs mit Terminen und Einblicken ins Vereinsleben.">
-  <meta name="theme-color" content="#f8f4eb">
-  <title>Amitié Club · Vereinswebsite</title>
+  <meta name="description" content="Amitié Club Alleshausen. Der nächste Vereinstermin, unsere Feste und Einblicke in den Verein.">
+  <meta name="theme-color" content="#f6f3ed">
+  <title>Amitié Club Alleshausen</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body id="start">
   <a class="skip-link" href="#inhalt">Zum Inhalt</a>
 
   <header class="site-header shell">
-    <a class="wordmark" href="#start" aria-label="Amitié Club, Startseite">
-      <span class="wordmark-initial" aria-hidden="true">A</span>
-      Amitié Club
-    </a>
+    <a class="wordmark" href="./" aria-current="page">Amitié Club</a>
     <nav aria-label="Hauptnavigation">
-      <a href="#termine">Termine</a>
-      <a href="#eindruecke">Eindrücke</a>
+      <a href="#naechster-termin">Termine</a>
+      <a href="feste.html">Feste</a>
       <a href="#verein">Unser Verein</a>
     </nav>
   </header>
@@ -26,43 +23,35 @@
   <main id="inhalt" class="shell">
     <section class="hero" aria-labelledby="seitentitel">
       <div class="hero-copy">
+        <p class="label">Alleshausen</p>
         <h1 id="seitentitel">Amitié<br>Club<span>.</span></h1>
-        <p>Termine, Eindrücke und die Menschen hinter unserem Verein.</p>
-        <a class="button" href="#termine">Zu den Terminen <span aria-hidden="true">↓</span></a>
+        <a class="button" href="#naechster-termin">Nächster Termin <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero-type" aria-hidden="true">
-        <span class="hero-initial">A<span>.</span></span>
-        <span class="hero-caption">Amitié Club</span>
+      <div class="hero-art">
+        <span class="hero-lettering" aria-hidden="true">AC</span>
       </div>
     </section>
 
-    <section class="page-section" id="termine" aria-labelledby="termine-titel">
-      <h2 id="termine-titel">Was als Nächstes ansteht</h2>
-      <div class="agenda">
-        <span class="calendar" aria-hidden="true"></span>
-        <p>Aktuell sind hier keine Termine veröffentlicht.</p>
-      </div>
+    <section class="agenda" id="naechster-termin" aria-labelledby="termin-titel">
+      <h2 class="label" id="termin-titel">Nächster Termin</h2>
+      <p class="agenda-title">Hier ist aktuell kein Termin veröffentlicht.</p>
     </section>
 
-    <div class="club-grid">
-      <section class="page-section impressions" id="eindruecke" aria-labelledby="eindruecke-titel">
-        <h2 id="eindruecke-titel">Eindrücke</h2>
-        <p>Hier sind aktuell keine Fotos aus dem Vereinsleben veröffentlicht.</p>
+    <div class="home-grid">
+      <section class="festival-teaser" aria-labelledby="feste-titel">
+        <h2 id="feste-titel">Unsere Feste</h2>
+        <a class="button button-light" href="feste.html">Zur Festeseite <span aria-hidden="true">→</span></a>
       </section>
-
-      <section class="page-section about" id="verein" aria-labelledby="verein-titel">
+      <section class="about" id="verein" aria-labelledby="verein-titel">
         <h2 id="verein-titel">Unser Verein</h2>
-        <p>Der Amitié Club lebt von den Menschen, die sich einbringen und das Vereinsleben gemeinsam gestalten.</p>
+        <p>Wir sind der Amitié Club aus Alleshausen. Zu unserem Vereinsleben gehören die Feste, die wir gemeinsam organisieren.</p>
       </section>
     </div>
   </main>
 
   <footer class="site-footer shell">
-    <a class="wordmark" href="#start" aria-label="Amitié Club, Startseite">
-      <span class="wordmark-initial" aria-hidden="true">A</span>
-      Amitié Club
-    </a>
-    <a class="back-to-top" href="#start">Nach oben <span aria-hidden="true">↑</span></a>
+    <a class="wordmark" href="./">Amitié Club Alleshausen</a>
+    <a href="#start">Nach oben <span aria-hidden="true">↑</span></a>
   </footer>
 </body>
 </html>

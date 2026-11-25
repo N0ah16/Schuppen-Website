@@ -1,12 +1,13 @@
-# Amitié Club
+# Amitié Club Alleshausen
 
-Eine statische Vereinswebsite. HTML, CSS und die Schriftdateien liegen im
-Repository. Für die Vorschau sind Python 3 und ein Browser ausreichend.
+Statische Vereinswebsite mit Startseite und eigener Festeseite. HTML, CSS
+und die Schriftdateien liegen im Repository. Die Vorschau braucht Python 3
+und einen Browser.
 
 ```sh
 python3 -m http.server 3000 --bind 127.0.0.1
 ```
 
-Die Seite ist anschließend unter `http://127.0.0.1:3000/` erreichbar.
-Termine, Vereinsvorstellung und Eindrücke stehen in `index.html`. Die
-Schriftlizenzen liegen unter `assets/fonts/`.
+Die Startseite öffnet sich unter `http://127.0.0.1:3000/`. Der nächste
+Vereinstermin steht in `index.html` und das Festprogramm in `feste.html`.
+Die Schriftlizenzen liegen unter `assets/fonts/`.
